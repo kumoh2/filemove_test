@@ -1,0 +1,16 @@
+﻿<Window x:Class="filemove_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:filemove_test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="574,138,0,0" VerticalAlignment="Top" Click="Button_Click" Width="75" Height="49"/>
+        <Label x:Name="label1" Content="기존경로" HorizontalAlignment="Left" Margin="145,134,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="210,138,0,0" TextWrapping="Wrap" Text="\\10.211.55.4\filemove_target_test" VerticalAlignment="Top" Width="301"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="210,169,0,0" TextWrapping="Wrap" Text="\\10.211.55.4\filemove_test" VerticalAlignment="Top" Width="301"/>
+        <Label x:Name="label1_Copy" Content="이동경로" HorizontalAlignment="Left" Margin="145,165,0,0" VerticalAlignment="Top" Cursor=""/>
+    </Grid>
+</Window>
